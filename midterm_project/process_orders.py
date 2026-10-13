@@ -47,7 +47,6 @@ def write_json(filename, data):
 
 
 def main():
-
     parser = argparse.ArgumentParser(
         description="Process Dosa restaurant orders"
     )
@@ -69,6 +68,7 @@ def main():
 
     print("customers.json created successfully")
     print("items.json created successfully")
+    print("Order processing complete.")
 
 
 if __name__ == "__main__":
