@@ -1,13 +1,13 @@
 import json
 import argparse
 
-
+# Load orders from JSON file
 def load_orders(filename):
     """Read orders from a JSON file."""
     with open(filename, "r") as file:
         return json.load(file)
 
-
+# Generate customer dictionary
 def build_customers(orders):
     """Create phone -> customer name dictionary."""
     customers = {}
