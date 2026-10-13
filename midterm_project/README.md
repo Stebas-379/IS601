@@ -44,6 +44,13 @@ Stores customer phone numbers and names.
 
 Stores item information including price and total orders.
 
+## Files
+
+- process_orders.py
+- example_orders.json
+- customers.json
+- items.json
+
 ## Requirements
 
 - Python 3.x
